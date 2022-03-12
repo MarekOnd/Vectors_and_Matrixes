@@ -1,0 +1,44 @@
+_______________________Navod k pouzivani_________________________
+Obecne
+- nulou se v mnoha pripadech lze vratit do hlavni nabidky a prerusit akci (toto nelze udelat kdyz uz se zadava vektor)
+- znaky (!) jsou oznaceny moznosti, ktere mohou odstranit nebo zmenit vektory
+	- operace s vektory prepisou prvni zadany vektor bez ohledu na to, co je v nem ulozeno
+	- horni stupnovity tvar pracuje se seznamem jako matici
+	- zmena dimenze vymaze vsechny vektory, protoze v matici nemuzou byt vektory s jinymi dimenzemi
+	- nacist ze souboru take vymaze vsechny vektory (nelze nactene vektory pripojit k aktualnimu seznamu)
+- vypisuji se cisla na 2 desetinna mista
+
+Operace s vektory
+- jmena vektoru mohou byt libovolne dlouha a mohou obsahovat i cisla (doporucuje se volit kratka jmena; napr. x, y, p1, p2)
+- pri pridavani vektoru se program nejdrive zepta, na jakou pozici chce uzivatel vlozit vektor
+- pri operacich s vektory se napriklad u scitani zadavaji jmena tri vektoru, ktera pak tvori priklad: 1.vektor = 2.vektor + 3.vektor
+	- je mozne zadat jeden vektor vicekrat: 1.vektor = 1.vektor + 2.vektor
+
+Soubory
+- k programu jsou prilozeny predpripravene seznamy vektoru (sadaA, sadaB, sadaC, inverzni1, inverzni2...) ve slozce Data
+- pri ukladani lze bez varovani prepsat soubory
+- formaty textovych souboru:
+	dimenze
+	pocetvektoru
+	jmeno prvniho
+	prvni souradnice prvniho
+	druha souradnice prvniho
+	...
+	posledni souradnice posledniho
+	konec
+- priklad pro matici 3*3
+3
+3
+x1
+4
+8
+5
+x2
+5
+2
+4
+x3
+3
+1
+78
+konec

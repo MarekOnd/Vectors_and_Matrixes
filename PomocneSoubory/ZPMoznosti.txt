@@ -1,0 +1,17 @@
+_._._Moznosti_._._
+0 - ukoncit program
+1 - pridat vektor do seznamu
+2 - odstranit vektor ze seznamu
+3 - operace s vektory (!)
+4 - prohodit vektory
+5 - upravit na horni stupnovity tvar (!)
+6 - zmenit jmeno souboru k ulozeni
+7 - zmenit dimenzi seznamu (!)
+8 - ulozit
+9 - ulozit jako
+10 - nacist ze souboru (!)
+11 - zobrazit Navod k pouzivani
+12 - urci determinant
+13 - urci inverzni matici Gaussovou eliminaci (!)
+14 - (pouze pro vizualizaci funkce) pridej jednotkovou matici
+15 - prepnout vypisovani postupu
